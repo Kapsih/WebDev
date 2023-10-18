@@ -1,0 +1,41 @@
+input[type="button"]{
+    width: 95%;
+    height:95%;
+    color: bisque;
+    background-color: blue;
+    font-weight: 600;
+    padding: 5%;
+    border: solid whitesmoke 1px;
+    border-radius: 8px;
+    
+}
+
+
+
+table{
+    margin:0 auto;
+    margin-top: 80px;
+    width:30rem;
+    height: 15rem;
+    border: solid lightcyan 6px;
+    opacity: 0.7;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    opacity: 0.7;
+    font-size: 40px;
+
+}
+input[type="text"]{
+    width: 95%;
+    height: 90%;
+    padding-left:4px;
+    border: solid  2px;
+}
+html{
+    background-image: url(../css/images/Free-blue-gradient-pattern-background-from-Fotor.webp)
+}
+

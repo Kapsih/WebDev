@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<link href="../css/calcStyles.css" rel="stylesheet">
+<script src="../js/calc.js"> </script>
+
+<body>
+    <h1>Calculator</h1>
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="screen" disabled/></td>
+            <td><input type="button" value="Clear" id="clear" onclick="erase()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id ="num" value="1" onclick="DisplayNum('1')" /></td>
+            <td><input type="button" id ="num" value="2" onclick="DisplayNum('2')"/></td>
+            <td><input type="button" id ="num" value="3" onclick="DisplayNum('3')"/></td>
+            <td><input type="button" id="sign" value="+" onclick="DisplayNum('+')"/></td>
+           
+        </tr>
+        <tr>
+            <td><input type="button" id ="num" value = "4" onclick="DisplayNum('4')"/></td>
+            <td><input type="button" id ="num" value = "5" onclick="DisplayNum('5')"/></td>
+            <td><input type="button" id ="num" value = "6" onclick="DisplayNum('6')"/></td>
+            <td><input type="button" id ="sign" value = "-" onclick="DisplayNum('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" id ="num" value = "7" onclick="DisplayNum('7')"/></td>
+            <td><input type="button" id ="num" value = "8" onclick="DisplayNum('8')"/></td>
+            <td><input type="button" id ="num" value="9" onclick="DisplayNum('9')"/></td>
+            <td><input type="button" id = "sign" value="*" onclick="DisplayNum('*')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" id ="num" value="." onclick="DisplayNum('.')"/> </td>
+            <td><input type="button" id ="num" value="0" onclick="DisplayNum('0')"/> </td>
+            <td><input type="button" id ="num" value="/" onclick="DisplayNum('/')"/> </td>
+            <td><input type="button" id ="sign" value="Result" onclick="DisplayResult()"/> </td>
+        </tr>
+    </table>
+</body>
+</html>
